@@ -3,6 +3,11 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   
+    <link rel="stylesheet" href="https://unpkg.com/sheryjs/dist/Shery.css" />
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/locomotive-scroll@3.5.4/dist/locomotive-scroll.css">
+   
     <link
     href="https://cdn.jsdelivr.net/npm/remixicon@4.5.0/fonts/remixicon.css"
     rel="stylesheet"
@@ -18,20 +23,20 @@
     <div id="home">
         <div id="nav">
             <div id="nleft">
-              <a href="#">Home</a>
-              <a href="#">Pricing</a>
-              <a href="#">Products</a>
+              <a class="nlink" href="#">Home</a>
+              <a class="nlink" href="#">Pricing</a>
+              <a class="nlink" href="#">Products</a>
             </div>
     
-        <a href="#" id="centertag">Sheryians</a>
+        <a class="nlink" href="#" id="centertag">Sheryians</a>
     
         <div id="nright">
-           <a href="#">Our Journey</a>
+           <a class="nlink" href="#">Our Journey</a>
         </div>
     </div>
 
 <div id="hero">
-    <div id="sustain">
+    <div class="anim2" id="sustain">
         <h5>0.1</h5>
         <h2>Sustainability</h2>
         <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quod.</p>
@@ -40,7 +45,7 @@
         </div>
     </div>
 
-    <div id="ephemeral">
+    <div class="anim2" id="ephemeral">
         <div id="headings">
             <h1>Ephemeral.</h1>
             <h1>Equilibrium</h1>
@@ -51,12 +56,13 @@
         </div>  
     </div>
 
-    <div id="visit">
+    <div class="anim2" id="visit">
         <div id="circlev">
             <i class="ri-arrow-down-line"></i> 
         </div>
         <h3>Visit Our gallery.</h3>
     </div>
+</div>
 </div>
 
 <div id="motive">
@@ -72,10 +78,59 @@
         <h1>Synergy</h1>
         <p>Committed to Sustainability, eco-friendly choices for a better tomorrow.</p>
     </div>
+    <div id="secpic">
+        <div id="picimg">
+            <img src="cloud.jpg" alt="">
+        </div>
+        <h1>Harmony</h1>
+        <p>Committed to Sustainability, eco-friendly choices for a better tomorrow.</p>
+    </div>
 </div>
 
+
+<div id="banner">
+    <div id="bimg">
+        <img src="bottle.jpg" alt="">
+    </div>
+    <div id="btext">
+        <h1>Biodegradeable</h1>
+        <h1>Packaging</h1>
+        <p>Committed to Sustainability, eco-friendly choices for a better tomorrow.</p>
+    </div>
+    </div>
+
+    <div id="future">
+        <video src="back.mp4" autoplay muted loop></video>
+        <div id="ftext">
+            <h1>Think of Future</h1>
+            <button>Join the movement</button>
+        </div>
+    </div>
 
     </div>
 </div>
+
+
+
+
+
+
+<!--  Gsap is needed for Basic Effects -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js"></script>
+
+<!-- Scroll Trigger is needed for Scroll Effects -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/ScrollTrigger.min.js"></script>
+
+<!-- Three.js is needed for 3d Effects -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/0.155.0/three.min.js"></script>
+
+<!-- ControlKit is needed for Debug Panel -->
+<script src="https://cdn.jsdelivr.net/gh/automat/controlkit.js@master/bin/controlKit.min.js"></script>
+
+
+<script src="https://cdn.jsdelivr.net/npm/locomotive-scroll@4.1.4/dist/locomotive-scroll.min.js"></script>
+
+<script  type="text/javascript"  src="https://unpkg.com/sheryjs/dist/Shery.js"></script>
+<script src="Script.js"></script>
 </body>
 </html>
